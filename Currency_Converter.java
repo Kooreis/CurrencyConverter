@@ -1,18 +1,17 @@
-import java.util.Scanner;
+if (code == 1) {
 
-public class CurrencyConverter {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        double amount, dollar, pound, code, euro, yen, ringgit, rupee;
+            dollar = amount / 70;
+            System.out.println("Your " + amount + " Rupee is : " + dollar + " Dollar");
 
-        System.out.println("Welcome to the Currency Converter!");
+            pound = amount / 88;
+            System.out.println("Your " + amount + " Rupee is : " + pound + " Pound");
 
-        System.out.println("which currency You want to Convert ? ");
+            euro = amount / 80;
+            System.out.println("Your " + amount + " Rupee is : " + euro + " Euro");
 
-        System.out.println("1:Ruppe \t2:Dollar \t3:Pound \n4:Euro \t5:Yen \t6:Ringgit ");
-        code = scanner.nextInt();
+            yen = amount / 0.63;
+            System.out.println("Your " + amount + " Rupee is : " + yen + " Yen");
 
-        System.out.println("How much Money you want to convert ? ");
-        amount = scanner.nextFloat();
-    }
-}
+            ringgit = amount / 16;
+            System.out.println("Your " + amount + " Rupee is : " + ringgit + " ringgit");
+        }
